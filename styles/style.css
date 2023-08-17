@@ -1,3 +1,30 @@
+
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    /* display: inline; */
+}
+
+nav li:hover{
+    background-color: pink;
+}
+nav li a{
+    text-decoration: none;
+    color: purple;
+    padding: 6px 8px;
+}
+
+nav li .dropdown{
+    display: none;  
+    padding-left: 0px;  
+}
+
+nav li:hover .dropdown{
+    display: block;
+}
+
 label{
     display: block;
     margin-bottom: 10px;
